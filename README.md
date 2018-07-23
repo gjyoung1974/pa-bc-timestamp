@@ -80,7 +80,7 @@ Ordering: no
 
 Nonce: unspecified
 
-TSA: DirName:/C=SG/O=GMO GlobalSign Pte Ltd/CN=GlobalSign TSA for Standard – G1
+TSA: DirName:/C=US/O=ACME Corporation/OU=ACME Time Stamp Authority/CN=ACME Corporation Time-Stamp Service
 
 Extensions:
 
