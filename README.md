@@ -30,7 +30,7 @@ $ openssl ts -query -data inputfile.txt -cert -sha256 -no_nonce -out request.tsq
 3. Send the request to your timestamp server
 
 ```$bash
-$ curl -k -H “Content-Type: application/timestamp-query” -H Host:timestamp.globalsign.com –data-binary @request.tsq “http://timestamp.globalsign.com”  >inputfile.txt.tsr
+$ curl -k -H "Content-Type: application/timestamp-query" -H Host:timestamp.globalsign.com -d @request.tsq "http://timestamp.globalsign.com"
 ```
 
  
